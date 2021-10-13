@@ -1,12 +1,27 @@
-# mba
-mba Impacta
+# Infrastructure and Cloud Computing - VAGRANT
 
-Comandos para realizar o teste de conexao com o MYSQL
+> CRIAR UMA MAQUINA VIRTUAL USANDO VAGRANT COM O MYSQL RODANDO
+
+---
+
+## ATIVIDADE 01
+
+- Repositório Github: [infra-cloud-atividade01]
+
+---
+
+## Rodando a aplicação
+
+Para rodar a aplicação local basta seguir os passos abaixo:
 
 vagrant up
 
-vagrant provision
+Depois disso basta acessar a conexão com o banco usando os dados abaixo:
 
- mysql -u petclinic -h 127.0.0.1 -P 3306 -p 
+- http://localhost:3306
+- usuario: mbaimpacta
+- senha: mbaimpacta
 
-password: petclinic
+---
+
+[infra-cloud-atividade01]: https://github.com/robighetti/infra-cloud-atividade01-vagrant
